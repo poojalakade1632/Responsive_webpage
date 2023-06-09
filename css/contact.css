@@ -1,0 +1,43 @@
+.contact-content{
+        height:100vh;
+        background-color: rgb(247, 242, 242);
+        margin-top: -2px;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        position: relative;
+       
+       
+       }
+      .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        justify-content: center;
+        padding: 23px;
+       position:absolute;
+       z-index: 1;
+       
+      }
+      .form-box ::placeholder{
+        color: var(--main-bg-color);
+        font-weight: bold;
+       
+      }
+      .side-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       position: absolute;
+        width: 2035px;
+        height: 444px;
+        
+        
+      }
+      .side-img img{
+        border: 1px solid black;
+        height: 280px;
+        border-radius: 7000px;
+       }
+      
